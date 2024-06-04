@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textarea</title>
+    <style>
+        fieldset{
+            width: 350px;
+        }
+        textarea{
+            resize: none;
+        }
+        table{
+            border: 2px solid red;
+            padding: 10px;
+        }
+        button{
+            margin-right: 50px;
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+       
+            <table border="0">
+                <tr>
+                    <td>
+                        <label for="full-name">
+                            Name
+                        </label>  
+                    </td>
+                    <td>
+                        <input type="text" id="full-name" name="user-name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email
+                        </label>
+                    </td>
+                    <td>
+                        <input type="email" name="user-email-id" id="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pass">Password
+                        </label>
+                    </td>
+                    <td>
+                        <input type="password" name="user-password" id="pass">
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <label for="user-feed">Tell me your Feedback</label>
+                    </td>
+                    <td>
+                        <textarea rows="7" cols="30" name="user-feedback" placeholder="Write Something....!" id="user-feed"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <button type="submit">Submit</button>
+                        <button type="reset">Cancel</button>
+                    </td>
+                </tr>
+
+            </table>        
+    </form>
+</body>
+</html>

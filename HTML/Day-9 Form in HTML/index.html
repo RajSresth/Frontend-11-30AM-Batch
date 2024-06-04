@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms in HTML (part-1)</title>
+    <style>
+      input[type="number"] {
+        appearance: textfield;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#">
+      Name <input type="text" /> <br /><br />
+      Mobile <input type="tel" /> <br /><br />
+
+      Dob <input type="date" /><br /><br />
+      Time <input type="time" /><br /><br />
+      Dob and Time <input type="datetime-local" /><br /><br />
+
+      choose blue color: <input type="color" /><br /><br />
+
+      Email <input type="email" /> <br /><br />
+      Password <input type="password" /><br /><br />
+
+      Select your salary range <br />
+      <input type="range" /> <br /><br />
+
+      Search Here <input type="search" /> <br /><br />
+
+      LinkedIn URL <input type="url" /> <br /><br />
+
+      submit your resume <br />
+      <input type="file" multiple accept=".pdf" />
+      <br /><br />
+
+      calculate: 10+10 <br />
+      <input type="number" step="10" min="0" max="100" /><br /><br />
+
+      Gender <br />
+      <input type="radio" name="gender" checked /> Male
+      <input type="radio" name="gender" /> Female
+      <input type="radio" name="gender" /> Others 
+      <br /><br />
+
+      Hobbies <br>
+      <input type="checkbox"> Eating
+      <input type="checkbox"> Sleeping <br>
+      <input type="checkbox"> Travelling
+      <input type="checkbox"> Playing Cricket <br>
+      <input type="checkbox"> Drinking Water
+      <input type="checkbox"> Dancing <br>
+      <input type="checkbox"> Singing
+      <input type="checkbox"> Cooking
+
+      <br><br>
+
+      <input type="submit" value="Login" />
+      <input type="reset" value="cancel" />
+    </form>
+  </body>
+</html>

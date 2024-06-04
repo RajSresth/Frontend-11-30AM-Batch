@@ -1,0 +1,31 @@
+/* Tag Name selector */
+/* div{
+    color: red;
+} */
+
+/* Id Selector # */
+/* #div-1{
+    color: magenta;
+} */
+
+/* Class Selector . */
+/* .chombu{
+    color: salmon;
+} */
+
+/* universal selector * */
+/* *{
+    color: white;
+    background-color: black;
+} */
+
+/* Grouping Selector */
+/* section,span{
+    color: aqua;
+} */
+
+
+/* Advance grouping selector */
+/* .chombu,#para-1{
+    color: mediumspringgreen;
+} */

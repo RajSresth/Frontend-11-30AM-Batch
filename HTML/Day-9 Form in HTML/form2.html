@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form (Part-3)</title>
+    <style>
+        sup{
+            color: red;
+        }
+        input[type=number]{
+            appearance: textfield;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" autocomplete="off">
+        Name <input type="text" name="student-name" placeholder="Enter Full name" autofocus size="30" minlength="2" maxlength="16" > <br><br>
+
+        Mob <input type="tel" name="student-mobile-number" placeholder="mobile number" minlength="10" maxlength="10"> <br><br>
+
+        Email<sup>*</sup> <input type="email" name="student-email-id" value="shivam123@gmail.com" required> <br><br>
+
+        Password<sup>*</sup> <input type="password" name="student-password" required><br><br>
+
+        college <input type="text" value="Farzi college" readonly name="college-name"><br><br>
+        
+        college Hod <input type="text" value="RD Sharma" name="college-hod-name" disabled> <br><br>
+
+        credit Card Number <input type="number" minlength="16" maxlength="16" placeholder="Enter your answer"><br><br>
+
+        <input type="submit" value="Login">
+        <input type="reset" value="Cancel">
+    </form>
+    
+</body>
+</html>

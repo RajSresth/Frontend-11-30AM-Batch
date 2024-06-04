@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table (Part-1)</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        /* table,tr,th,td{
+            border: none;            
+        }
+        tr,th,td{
+            border: 2px solid deeppink;
+        } */
+        thead{
+            background-color: rgb(129, 6, 190);
+            height: 70px;            
+        }
+        tbody{
+            
+            background-color: rgb(0, 174, 255) ;
+        }
+        tfoot{
+            background-color: deeppink;
+        }
+    </style>
+  </head>
+  <body>
+    <table border="1" cellspacing="3px" cellpadding="15px" align="center" rules="all">
+      <caption>
+        Developement Course Table
+      </caption>
+
+      <thead>
+          <!-- Row-1 start -->
+            <tr align="center">
+                    <th>S.No</th>
+                    <th>Course</th>
+                    <th>Price</th>
+            </tr>    
+      </thead>
+     <tbody>
+         <!-- Row-2 -->
+        <tr align="center">
+            <td>1.</td>
+            <td>Web</td>
+            <td rowspan="3">10000</td>
+        </tr>
+
+        <!-- Row-3 -->
+        <tr align="center">
+            <td>2.</td>
+            <td>SQL</td>
+            <!-- <td>10000</td> -->
+        </tr>
+
+        <!-- Row-4 -->
+        <tr align="center">
+            <td>3.</td>
+            <td>Java</td>
+            <!-- <td>10000</td> -->
+        </tr>
+
+        <!-- Row-5 -->
+        <tr align="center">
+            <td>4.</td>
+            <td>Adv. Java</td>
+            <td>5000</td>
+        </tr>
+     </tbody>
+
+      <tfoot>
+        <!-- Row-6 -->
+        <tr align="center">
+            <td colspan="2">Total Price</td>
+            <td>30000</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

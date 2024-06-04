@@ -1,0 +1,31 @@
+/* Article p{
+    color: red;
+} */
+
+/* Article>p{
+    color: deeppink;
+}
+
+Article>main>p{
+    color: deepskyblue;
+}
+
+main>p{
+    color: mediumseagreen;
+} */
+
+
+/* Article+div+div{
+    color: aqua;
+}
+
+Article~.last{
+    color: mediumvioletred;
+} */
+
+/* section>main>:last-child>:last-child{
+    background-color: red;
+} */
+/* section main div:last-of-type span:last-of-type{
+    background-color: aqua;
+} */

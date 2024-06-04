@@ -1,0 +1,11 @@
+/* Prefix Value */
+div[title^="tag-1"]{
+    background-color: red;
+    color: white;
+}
+
+div[title^="tag-2"]{
+    background-color: purple;
+    color: white;
+}
+

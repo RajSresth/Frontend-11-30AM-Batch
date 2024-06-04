@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Label Tag</title>
+    <style>
+        fieldset{
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend align="center">Login Form</legend>
+
+            <label for="userName">
+                Name
+            </label>
+            <input type="text" name="user-name" placeholder="Enter full name" id="userName"> <br><br>
+    
+            <label for="userEmail">Email</label>
+             <input type="email" name="user-email" placeholder="enter email address" id="userEmail"> <br><br>
+    
+            <label for="pass">Password
+                <input type="password"  name="user-password" placeholder="at least 6 characters" id="pass"><br><br>
+            </label>
+            
+            <label for="yop">YOP details</label> <br>
+            <select name="user-yop-details" id="yop">
+                <option value="" disabled selected>--Select Your Yop--</option>
+                <option value="2024">2024</option>
+                <option value="2023">2023</option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+                <option value="2020">2020</option>
+            </select>
+
+            <br><br>
+
+            <input type="text" placeholder="Enter your State" name="state-name" list="userState">
+            <datalist id="userState">
+                    <option value="Haryana"></option>
+                    <option value="Maharasthra"></option>
+                    <option value="Uttar Pradesh"></option>
+                    <option value="Uttarakhand"></option>
+                    <option value="Madhya Pradesh"></option>
+                    <option value="Himachal Pradesh"></option>
+                    
+            </datalist>
+
+            <br><br>
+            <input type="submit" value="Login">
+            <input type="reset" value="Cancel">
+        </fieldset>
+    </form>
+</body>
+</html>
