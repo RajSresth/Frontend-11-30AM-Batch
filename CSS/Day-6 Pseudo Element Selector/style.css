@@ -1,0 +1,71 @@
+/* span{
+    display: inline-block;
+} */
+/* span::first-letter{
+    font-size: 28px;
+    color: red;
+    font-style: italic;
+} */
+
+/* ::first-line */
+/* span{
+    display: inline-block;
+}
+span::first-line{
+    font-size: 28px;
+    font-style: italic;
+    color: deeppink;
+} */
+/* 
+span::selection{
+    background-color: rgb(6, 160, 6);
+    color: white;
+} */
+
+/* ::selection{
+    background-color: rgb(1, 152, 109);
+    color: white;
+} */
+
+/* ul>li::marker{
+    content: "😋 ";
+} */
+
+/* ul>li:nth-of-type(even)::marker{
+    content: "😍 ";
+}
+
+ul>li:nth-of-type(odd)::marker{
+    content: "😒 ";
+}
+ul>li:last-of-type::marker{
+    content: "🤢 ";
+}
+ul>li:nth-of-type(11)::marker{
+    content: "🤮 ";
+} */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-size: 55px;
+}
+
+div::before{
+    content: "Ram Ram ";
+    color: orange;
+}
+div::after{
+    content: " Sareyane";
+    color: green;
+}

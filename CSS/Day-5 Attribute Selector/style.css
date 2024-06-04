@@ -1,5 +1,5 @@
 /* Prefix Value */
-div[title^="tag-1"]{
+/* div[title^="tag-1"]{
     background-color: red;
     color: white;
 }
@@ -7,5 +7,34 @@ div[title^="tag-1"]{
 div[title^="tag-2"]{
     background-color: purple;
     color: white;
+} */
+
+/* Suffix Value */
+/* div[title$="div2"]{
+    background-color: magenta;
 }
 
+div[title$="div1"]{
+    background-color: coral;
+} */
+
+/* Between Values/Middle Values */
+/* div[title~="content-2"]
+{
+    background-color: orange;
+}
+
+div[title~="content-1"]{
+    background-color: deepskyblue;
+} */
+
+/* Any value * */
+div[title*="tag-1"]{
+    background-color: teal;
+    color: white;
+}
+
+div[title*="content-2"]{
+    background-color: deeppink;
+    color: white;
+}
