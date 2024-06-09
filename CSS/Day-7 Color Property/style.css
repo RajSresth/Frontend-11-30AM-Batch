@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #00ffff;
+    display: grid;
+    place-items: center;
+    font-size: 75px;
+}
+div{
+    color: rgba(0,0,0,0.37);
+}

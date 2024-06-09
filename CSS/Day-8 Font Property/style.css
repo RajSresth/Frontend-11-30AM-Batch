@@ -1,0 +1,29 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap'); */
+
+@font-face {
+    font-family:'chombu font' ;
+    src: url('./Fonts/Poppins/Poppins-SemiBold.ttf');
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+div{
+    font-size: 105px;
+    font-weight: 700;
+    font-style: oblique 30deg;
+    /* font-variant: small-caps; */
+    /* font-family: "Dancing Script", cursive; */
+    font-family: 'chombu font',serif ;
+}
