@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: grid;
+    place-items: center;
+    font-size: 175px;
+}
+div{
+    font-style: italic;
+    font-variant: small-caps;
+    text-shadow: 0px -200px 8px orange,
+                 0px 200px 8px green;    
+}

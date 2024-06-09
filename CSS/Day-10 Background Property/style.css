@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color:black ;
+    color: white;
+    font-size: 85px;
+    text-align: center;
+}
+main{
+    width: 100%;
+    height: calc(100% - 200px);
+    background-color: orange;
+    background-image: url('https://media.architecturaldigest.com/photos/5ebc0c0a746cbb825ca103c9/16:9/w_2560%2Cc_limit/GettyImages-966987298.jpg');
+    background-repeat: no-repeat;
+    background-size:600px 350px ;
+    background-position:right 30px bottom 50px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-size: 85px;
+    text-align: center;
+}

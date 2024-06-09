@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+section{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top center;
+    background-attachment: fixed;
+}
+.section-1{
+    background-image: url('https://i.ytimg.com/vi/jZikXIrkmzU/maxresdefault.jpg');
+}
+.section-2{
+    background-image: url('https://i.ytimg.com/vi/-H3XlrSx8qY/maxresdefault.jpg');
+}
+.section-3{
+    background-image: url('https://i.ytimg.com/vi/o4ZtovKbSwM/maxresdefault.jpg');
+}
+.section-4{
+    background-image: url('https://i.ytimg.com/vi/uYvb57wtUMM/maxresdefault.jpg');
+}
+.section-5{
+    background-image: url('https://thumbs.dreamstime.com/z/zara-men-s-clothing-store-zara-men-s-clothing-store-front-shop-logo-shopping-mall-zara-spanish-fast-fashion-clothing-269611373.jpg');
+}
+.section-6{
+    background-image: url('https://i.ytimg.com/vi/uYvb57wtUMM/maxresdefault.jpg');
+}
