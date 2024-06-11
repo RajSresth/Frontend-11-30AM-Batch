@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+}
+.box-1{
+    width: 950px;
+    height: 420px;
+    background-color: coral;    
+    margin:150px auto 0px;
+}
+.box-2{
+    width: 950px;
+    height: 420px;
+    background-color: purple;    
+    margin: auto;
+}
