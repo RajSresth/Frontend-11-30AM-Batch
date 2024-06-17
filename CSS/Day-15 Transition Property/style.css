@@ -134,3 +134,13 @@ button:hover{
     cursor: pointer;
     scale: 1.15;
 }
+/* .frame-container:hover >
+.frame-3:not(:hover){
+    filter: blur(10px);
+}
+.frame-container:hover > .frame-2:not(:hover){
+    filter: blur(10px);
+} */
+ /* .frame-1:hover~.frame-2,.frame-3{
+    filter: blur(10px);
+ } */
