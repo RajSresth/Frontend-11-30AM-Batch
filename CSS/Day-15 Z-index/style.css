@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    
+}
+.card-container{
+    width: 1200px;
+    height: 620px;
+    border: 4px solid white;
+    margin: 50px auto;    
+    position: relative;
+}
+.child{
+    width: 210px;
+    height: 280px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.card-1{
+    background-color: rgb(222, 78, 26);
+    left: 65%;
+    top: 32%;
+    z-index: 5;
+}
+.card-2{
+    background-color: rgb(26, 175, 220);
+    left: 59%;
+    top: 41%;
+    z-index: 3;
+}
+.card-3{
+    background-color: rgb(198, 15, 198);
+    
+}
