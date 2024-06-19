@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background:url('https://www.itsjustlight.com/wp-content/uploads/2015/10/Copenhagen-Denmark-Travel-Photography.jpg'), no-repeat center;
+    background-size: cover;
+}
+section{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 0.481),rgba(0,0,0,0.85)); 
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.line{
+    position: absolute;
+}
+.head-1{
+    opacity: 0;
+    font-size: 95px;
+    /* background-color: red; */
+    animation: line-1 1s ease-in-out 0s 1 forwards;
+}
+@keyframes line-1 {
+    from{
+        top: 50%;
+        left:0%;
+        transform: translate(0,-50%);
+    }
+    to{
+        top: 50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        opacity: 1;
+    }
+}
+.head-2{
+    opacity: 0;
+    font-size: 65px;
+    /* background-color: aqua; */
+    animation: line-2 1s ease-in-out 1s 1 forwards;
+}
+
+@keyframes line-2 {
+    from{
+        top: 60%;
+        left: 0%;
+        transform: translate(0%,-50%);
+    }
+    to{
+        transform: translate(-52%,-50%);
+        top: 60%;
+        left: 60%;
+        opacity: 1;
+    }
+}
+.head-3{
+    font-size: 45px;
+    /* background-color: magenta; */
+    opacity: 0;
+    animation: line-3 1s ease-in-out  1.5s forwards;
+}
+@keyframes line-3 {
+    from{
+        top: 68%;
+        left: 0%;
+        transform: translate(0%,-50%);        
+    }
+    to{
+        top: 68%;
+        left: 60%;
+        transform: translate(-53%,-50%);        
+        opacity: 1;
+    }
+}
