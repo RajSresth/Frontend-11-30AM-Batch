@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: grid;
+    place-items: center;
+}
+.heart-container{
+    width: 180px;
+    height: 170px;
+    /* background-color: grey; */
+    position: relative;
+    transform: scale(1);
+    animation: hrt 0.2s ease-in-out 0s alternate infinite;
+}
+@keyframes hrt {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(2);
+    }
+}
+.heart{
+    width: 100px;
+    height: 150px;
+    background-color: red;
+    border-radius: 50% 50% 0 0;
+    position: absolute;
+}
+.left{
+    left: 21px;
+    transform: rotate(-46deg);
+}
+.right{
+    left: 61px;
+    transform: rotate(46.9deg);
+}

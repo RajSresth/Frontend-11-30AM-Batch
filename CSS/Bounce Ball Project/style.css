@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+}
+.ball{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    animation: ball 2s ease-in-out 0s infinite;
+    transform: translate(0,0);
+}
+@keyframes ball {
+    0%{
+        background-color: yellow;
+        transform: translate(0,0);
+    }
+    50%{
+        transform: translate(680px,555px);
+        background-color: red;
+    }
+    100%{
+        transform: translate(1530px,-150px);
+        background-color:red;
+    }
+}
+.base{
+    width: 350px;
+    height: 10px;
+    background-color: grey;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%);
+}
+

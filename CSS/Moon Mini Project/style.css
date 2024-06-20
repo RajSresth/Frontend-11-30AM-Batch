@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.moon{
+    width: 20px;
+    height: 20px;
+    background-image:linear-gradient(navajowhite,white);
+    border-radius: 50%;
+    box-shadow: 1px 1px 20px 2px white;
+    animation:moon 1.5s ease-in-out 0s 2;
+    transform: scale(1);
+}
+@keyframes moon {
+    from{
+        box-shadow: 1px 1px 20px 2px white;
+        transform: scale(1);
+    }
+    to{
+        box-shadow: 1px 1px 30px 5px white;
+        transform: scale(12);
+    }
+}

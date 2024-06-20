@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle-container{
+    width: 300px;
+    height: 300px;
+    /* background-color:grey; */
+    border-radius: 50%;
+    position: relative;
+    animation: load 1.5s linear 0s infinite;
+    transform: rotate(0deg);
+}
+@keyframes load {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.circle{
+    position: absolute;
+    animation: circle 1.5s linear 0s infinite;
+    background-color: white;
+}
+@keyframes circle {
+    0%{
+        background-color: white;
+    }
+    60%{
+        
+        background-color: white;
+    }
+    100%{
+        background-color:red;
+    }
+}
+.circle-1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    left: 55px;
+}
+.circle-2{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    left: 15px;
+    top: 40px;
+}
+.circle-3{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    left: -5px;
+    top: 85px;
+}
+.circle-4{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    left: -10px;
+    top: 124px;
+}
+.circle-5{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    left: -7px;
+    top: 158px;
+}

@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loading{
+    width: 220px;
+    height: 220px;
+    border: 6px solid rgb(161, 160, 160);
+    border-radius: 50%;
+    border-top: 6px solid red;
+    animation: loading 1s linear 0s infinite;
+    transform: rotate(0deg);
+}
+@keyframes loading {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
