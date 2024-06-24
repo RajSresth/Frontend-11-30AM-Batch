@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 10px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+   font-size: 40px;
+}
+/* parent */
+.parent{
+ font-size: 20px;
+}
+
+/* Children 35px*/
+.child{
+   font-size: 3.5rem;
+}
